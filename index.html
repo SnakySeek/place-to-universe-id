@@ -21,8 +21,6 @@
     function showData(theData) {
       if (!isNaN(theData) && !isNaN(parseFloat(theData))) {
         document.getElementById("Univer").innerHTML = theData;
-        navigator.clipboard.writeText(theData);
-        alert(`Your Universal Id Is ${theData}`);
     } else {
         alert('Not A Valid Place Id')}};
 
